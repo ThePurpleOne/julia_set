@@ -19,7 +19,6 @@
 #define ANGULAR_SPEED 0.01f
 #define PI			  3.14
 
-
 int main()
 {
 	SDL_Window* window = NULL;
@@ -128,7 +127,6 @@ int main()
 
 		int vertexColorLocation = glGetUniformLocation(shader_program, "teta");
 		glUniform1f(vertexColorLocation, teta);
-
 
 		// !-------------------------------
 		// ! ------------ DRAW ------------
